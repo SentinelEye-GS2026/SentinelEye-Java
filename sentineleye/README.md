@@ -7,11 +7,11 @@
 
 | Recurso | Link |
 |---|---|
-| 🌐 **Deploy (API)** | https://sentineleye-gs.onrender.com |
-| 📋 **Swagger UI** | https://sentineleye-gs.onrender.com/swagger-ui/index.html |
-| 🎥 **Vídeo de Apresentação** | https://youtu.be/SEU_VIDEO_ID |
-| 🎬 **Vídeo Pitch** | https://youtu.be/SEU_PITCH_ID |
-| 📁 **Repositório GitHub** | https://github.com/SEU_USUARIO/sentineleye-gs |
+| 🌐 **Deploy (API)** | https://monitoramento-satelite.onrender.com |
+| 📋 **Swagger UI** | https://monitoramento-satelite.onrender.com/swagger-ui/index.html |
+| 🎥 **Vídeo de Apresentação** | https://www.youtube.com/watch?v=xSbMFXCUM1Y |
+| 🎬 **Vídeo Pitch** | https://www.youtube.com/watch?v=Q7m4JyD5GHc&t=2s |
+| 📁 **Repositório GitHub** | https://github.com/SentinelEye-GS2026/SentinelEye-Java |
 
 ---
 
@@ -19,9 +19,11 @@
 
 | RM | Nome | Turma |
 |---|---|---|
-| RM564673 | Nome do Integrante 1 | 2TDS-FEV |
-| RM000000 | Nome do Integrante 2 | 2TDS-FEV |
-| RM000000 | Nome do Integrante 3 | 2TDS-FEV |
+| RM565269 | Eduardo Augusto de Oliveira | 2TDSPI |
+| RM564673 | Fellipe Costa de Oliveira | 2TDSPI |
+| RM563009 | Felype Ferreira Maschio | 2TDSPI |
+| RM563304 | Gustavo Vieira de Matos | 2TDSPI |
+| RM562156 | Pedro Henrique dos Santos Costa | 2TDSPI |
 
 ---
 
@@ -138,7 +140,7 @@ duracao: 480
 
 ### Requisitos atendidos
 
-**Desenvolvimento da API (20%)**
+**Desenvolvimento da API **
 - API REST com Spring Boot 3.2.5 + Java 21
 - Organização em 13 camadas
 - Verbos HTTP: GET, POST, PUT, DELETE
@@ -146,7 +148,7 @@ duracao: 480
 - Injeção de dependência com `@Autowired`
 - Lombok e Spring Boot DevTools
 
-**Persistência de Dados e CRUD (20%)**
+**Persistência de Dados e CRUD **
 - Spring Data JPA com `JpaRepository` em 4 repositórios
 - CRUD completo em Alertas e Casos
 - DTOs: `AlertaDTO`, `CasoDTO`, `UsuarioDTO`
@@ -155,14 +157,14 @@ duracao: 480
 - Spring Validation com `@NotEmpty`, `@Min`, `@Max`, `@Size`
 - Tratamento de exceções com `@RestControllerAdvice`
 
-**Modelagem Avançada (5%)**
+**Modelagem Avançada **
 - 6 tabelas com relacionamentos 1:N
 - Herança: `Pessoa` ← `Usuario`
 - Enums: `StatusUsuarioEnum`, `TipoAmeacaEnum`, `TipoEventoEnum`
 - Spring Security + JWT stateless
 - Autenticação via `POST /autenticacao/login`
 
-**Documentação e Deploy (10%)**
+**Documentação e Deploy **
 - Swagger/OpenAPI com Bearer JWT
 - CORS configurado com `allowedOriginPatterns("*")`
 - Deploy público no Render
