@@ -1,5 +1,5 @@
 # 🛰️ SentinelEye API
-> Global Solution 2026/1 — FIAP — Java Advanced — 2TDS Fevereiro
+> Global Solution 2026/1 — FIAP — Java Advanced — 2TDSPI
 
 ---
 
